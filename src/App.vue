@@ -1,8 +1,13 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
+  <div
+    class="w-full text-black border-slate-600 font-bold text-8xl text-stone-50 text-center"
+  >
+    TailWind Css
+  </div>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
